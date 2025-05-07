@@ -20,6 +20,7 @@ const stock = createSlice({
     initialState: [10, 11, 12],
 });
 
+// 예시 데이터
 const data = createSlice({
     name: "data",
     initialState: [

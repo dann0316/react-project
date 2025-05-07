@@ -69,7 +69,9 @@ function App() {
                     element={
                         <>
                             <div className="main-bg">
-                                홈 배경임
+                                <div className="bg-img">
+
+                                </div>
                                 <h3>최근 본 상품</h3>
                                 {/* // localStorage에 내가 들어간 페이지의 id에 해당하는 상품 넣어주면 됨 */}
                                 {(localStorage.getItem("watched")

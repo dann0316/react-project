@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# React Shoe Shop (신발 쇼핑몰)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 프로젝트 소개  
+React 기반으로 제작한 신발 쇼핑몰 웹 애플리케이션입니다.  
+쇼핑몰에서 요구되는 기본적인 기능들을 직접 구현하며, 프론트엔드 구조 설계 및 상태 관리에 대한 이해를 높이기 위한 개인 프로젝트입니다.
 
-## Available Scripts
+## 🚀 주요 기능
+- 🔍 상품 목록 조회
+- 📄 상품 상세 페이지 확인
+- 🛒 장바구니 담기 및 수량 조절 및 삭제
+- 🛒 장바구니 내 상품 🔺 정렬 / 🔻 역정렬 (이름 기준)
+- 👀 최근 본 상품 목록 자동 저장 및 조회
 
-In the project directory, you can run:
+## 📁 폴더 구조
+# 프론트엔드 React 프로젝트
+/src
+  /components   # UI 컴포넌트
+  /pages        # 라우팅되는 주요 페이지
+  /img          # 이미지 폴더
+App.js        # 메인 앱 컴포넌트
+index.js      # 앱 엔트리 포인트
+data.js       # 가상 데이터 파일
+store.js      # 상태 관리 Redux 파일
+.gitignore
+README.md
 
-### `npm start`
+## 🛠 사용 기술
+-프론트엔드: React, Redux, Bootstrap
+-API 호출: Fetch API, Axios
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📝 기타
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 상태 관리는 Redux를 사용하여 장바구니, LocalStorage를 사용한 최근 본 상품 등
+- React-Bootstrap을 사용해 UI 구성의 일관성 및 반응형 지원
+- 간단한 정렬/필터 기능을 통해 사용자 편의성 향상
